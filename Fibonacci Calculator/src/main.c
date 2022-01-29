@@ -7,7 +7,7 @@ struct numbers
 	unsigned long int *n;
 };
 
-void calculateFibbonachi( struct numbers* number )
+void calculateFibonacci( struct numbers* number )
 {
 	unsigned long int a, b, index;
 	a = 0;
@@ -39,7 +39,7 @@ int main( void )
 	
 	num->n = &limit;
 
-	calculateFibbonachi( num );
+	calculateFibonacci( num );
 	free( num );
 
 	return ( EXIT_SUCCESS );
